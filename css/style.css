@@ -717,6 +717,22 @@ p{
 	float: left;
 	height: auto;
 }
+.beny_tm_button button {
+    background-color: #f0665a; /* coral/red color from screenshot */
+    color: #ffffff;            /* white text */
+    font-size: 18px;           /* adjust text size */
+    font-weight: 600;          /* slightly bold */
+    padding: 15px 50px;        /* vertical and horizontal padding */
+    border: none;              /* remove default border */
+    border-radius: 8px;        /* rounded corners */
+    cursor: pointer;           /* pointer on hover */
+    transition: background 0.3s ease;
+    display: inline-block;     /* keep it as block for spacing */
+}
+
+.beny_tm_button button:hover {
+    background-color: #e6554b; /* slightly darker on hover */
+}
 .beny_tm_about_wrap .leftbox .image_wrap{position: relative;}
 .beny_tm_about_wrap .leftbox .image_wrap:before{
 	position: absolute;
